@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kart Eşleştirme Oyunu"
+    />
+    <meta
+      name="keywords"
+      content="kart,karteşleştirme,kartoyunu,kartoyunları"
+
+    />
+
+    <title>Kart Eşleştirme Oyunu</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="startContainer">
+      <div id="gameBox">
+        <div id="infoIcon">&#9432;</div>
+        <div id="gameTitle">Oyuna başlamak için aşağıdaki " Oyna " butonuna tıklayın.</div>
+        <div id="playButtonContainer">
+          <button id="playButton">Oyna</button>
+        </div>
+        <div id="infoPopup">Kart eşleştirme oyununda, açık olan kartları hafızanızı kullanarak eşleştirmeye çalışın ve tüm kartları eşleştirmeye çalışın; ancak, kartları eşleştirirken süreye ve hamle sayısına dikkat edin.</div>
+      </div>
+    </div>
+    <div id="gameContainer" style="display: none;">
+    <div class="wrapper">
+      <ul class="cards">
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-1.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-2.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-3.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-4.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-5.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-6.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-1.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-2.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-3.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-4.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-5.png" alt="card-image" />
+          </div>
+        </li>
+        <li class="card">
+          <div class="view front-view">
+            <img src="./assets/images/que_icon.svg" alt="question-icon" />
+          </div>
+          <div class="view back-view">
+            <img src="/assets/images/img-6.png" alt="card-image" />
+          </div>
+        </li>
+        <div class="details">
+          <p class="time">
+            Zaman: <span><b>20</b>s</span>
+          </p>
+          <p class="flips">
+            Çevirmeler: <span><b>0</b></span>
+          </p>
+          <button>Yeniden Başlat</button>
+        </div>
+        <div id="statisticsContainer"></div>
+      </ul>
+    </div>
+  </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
