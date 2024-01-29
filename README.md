@@ -1,7 +1,7 @@
 # Card-Matching-Game
-Puan ve yıldız sistemi içeren bir hafıza eşleştirme oyunudur.
+It is a memory matching process that includes points and stars system.
 
-İşte oyundan bazı anlık görüntüler.
+Here are some automated images from the game.
 
 <img src="/images/Oyun.png" width="400"/>
 <img src="/images/LastScreen.png" width="400"/>
